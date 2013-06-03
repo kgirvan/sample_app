@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="605fc52a-58e4-4826-8901-5fd6eb31f4aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/help.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370280183318" ignored="false" />
     <file path="/hello.html" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370283144704" ignored="false" />
-    <file path="/static_pages_spec.rb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370289766528" ignored="false" />
+    <file path="/static_pages_spec.rb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370293242111" ignored="false" />
     <file path="/home.html.erb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370290750572" ignored="false" />
     <file path="/help.html.erb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370291535411" ignored="false" />
     <file path="/routes.rb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370288018385" ignored="false" />
     <file path="/static_pages_controller.rb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370288083682" ignored="false" />
     <file path="/about.html.erb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370290895004" ignored="false" />
     <file path="/application.html.erb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370291057555" ignored="false" />
+    <file path="/contact.html.erb" changelist="605fc52a-58e4-4826-8901-5fd6eb31f4aa" time="1370292983313" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,19 +101,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="help.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="help.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/help.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="8" selection-start="38" selection-end="38" vertical-scroll-proportion="0.020604396">
+            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="static_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contact.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="61" selection-start="176" selection-end="176" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="static_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="95" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+            <state line="15" column="64" selection-start="422" selection-end="422" vertical-scroll-proportion="0.14228724">
               <folding />
             </state>
           </provider>
@@ -141,11 +150,12 @@
         <option value="$PROJECT_DIR$/public/hello.html" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
+        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
       </list>
     </option>
   </component>
@@ -628,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="95" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="4" selection-start="313" selection-end="313" vertical-scroll-proportion="-6.25">
@@ -658,7 +661,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/help.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="38" selection-end="38" vertical-scroll-proportion="0.020604396">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="61" selection-start="176" selection-end="176" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="64" selection-start="422" selection-end="422" vertical-scroll-proportion="0.14228724">
           <folding />
         </state>
       </provider>
