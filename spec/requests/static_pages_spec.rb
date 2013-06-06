@@ -1,9 +1,22 @@
 require 'spec_helper'
 
-  describe "Static pages" do
+describe "Static pages" do
 
   subject { page }
 
+  #shared_examples_for "all static pages" do
+  #  it { should have_selector}
+  #  it { should have_selector('h1', text: heading) }
+  #  it { should have_selector('title', text: full_title(page_title)) }
+  #end
+  #describe "Home page" do
+  #  before { visit root_path }
+  #  let(:heading) { 'Sample App' }
+  #  let(:page_title) { '' }
+  #  it_should_behave_like "all static pages"
+  #  binding.pry
+  #  it { should_not have_selector 'title', text: '| Home' }
+  #end
   shared_examples_for "all static pages" do
     it { should have_selector('h1', text: heading) }
     it { should have_selector('title', text: full_title(page_title)) }
@@ -13,7 +26,6 @@ require 'spec_helper'
     let(:heading) { 'Sample App' }
     let(:page_title) { '' }
     it_should_behave_like "all static pages"
-
     it { should_not have_selector 'title', text: '| Home' }
   end
   describe "Help_page" do
@@ -22,7 +34,6 @@ require 'spec_helper'
     let(:page_title) { 'Help' }
     it_should_behave_like "all static pages"
 
-    it { should_not have_selector 'title', text: '| Help' }
   end
   describe "About_page" do
     before { visit about_path }
@@ -30,7 +41,6 @@ require 'spec_helper'
     let(:page_title) { 'About Us' }
     it_should_behave_like "all static pages"
 
-    it { should_not have_selector 'title', text: '| About' }
   end
   describe "Contact_page" do
     before { visit contact_path }
@@ -38,23 +48,21 @@ require 'spec_helper'
     let(:page_title) { 'Contact' }
     it_should_behave_like "all static pages"
 
-    it { should_not have_selector 'title', text: '| Contact' }
   end
 
   it "should have the right links on the layout" do
     visit root_path
     click_link "About"
-    page.should have selector 'title', text: full_title('About Us')
-    click_Link "Help"
-    page.should have selector 'title', text: full_title('Help')
+    page.should have_selector 'title', text: full_title('About Us')
+    click_link "Help"
+    page.should have_selector 'title', text: full_title('Help')
     click_link "Contact"
-    page.should have selector 'title', text: full_title('Contact')
+    page.should have_selector 'title', text: full_title('Contact')
     click_link "Home"
-    page.should have selector 'title', text: full_title('Home')
     click_link "Sign up now!"
-    #page.should # fill in
-    #click_link "sample app"
-    #page.should # fill in
+    page.should have_selector 'title', text: full_title('Sign up')
+    click_link "sample app"
+    page.should_not have_selector 'title', text: full_title(' | Home')
   end
 
 end
