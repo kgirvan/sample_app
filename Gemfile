@@ -15,6 +15,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-nav'
   gem 'annotate', '~> 2.4.1.beta'
+  gem 'paperclip'
 end
 
 
